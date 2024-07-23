@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Template - Utilizar como modelo</title> -->
+    <title>Clínica médica - formulário de cadastro/contato</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .row {
+            margin:10px;
+        }
+        
+        label {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        
+        fieldset {
+            width: 600px;
+            margin: 5px 0:
+            border-radius: 10px;
+            border-color: red;
+        }
+
+        textarea {
+            width: 500px;
+            margin: 50px 0:
+            padding-right: 5px;
+            border-radius: 5px;
+            border-color: black;
+        
+        }
+    </style>
+    </head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Voltar</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+             
+                <h1>Formulário de Contato</h1>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div class="row">
+                        <label>Nome:</label><input type="text" />
+                        <label>Celular:</label><input type="text" />
+                        <label>WhatsApp:</label><input type="text" />
+                        <label>E-mail:</label><input type="text" />
+                        <textarea rows="20" cols="50" name="message"></textarea><br>
+                    <!-- <input type="text" name="mensagem" /><br> -->
+                    <button type="reset">
+                        Limpar
+                    </button>
+                    <button type="submit">
+                        Enviar formulário
+                    </button>
+                    </div>
+                    
+                </fieldset>
+             
+            </div>
+  
+    <div class="footer">
+                Footer
+                <h4 align="center">Página desenvolvida nas aulas da Trilha HTML 2 - Dio.me</h4>
+                <p align="center">Nota: Os textos contidos neste site são fictícios e foram criados utilizando-se o ChatGPT exclusivamente para fins de teste e exemplo.</p>
+                <p align="center">Qualquer semelhança com clínicas reais é mera coincidência.</p>
+                <!-- Aqui vai o seu rodapé -->
+    </div>
+    </div>
+</body>
+</html>
